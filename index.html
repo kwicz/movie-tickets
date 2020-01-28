@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Movie tickets!!</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hey enter in the fields in this form to find out how much your movie ticket is</h1>
+    <form action="">
+      <div class="form-group">
+        <label for="age">Enter age</label>
+        <input id="age" type="number" min="0" max="100">
+      </div>
+      <label for="movie">Which movie do you want to see?</label>
+          <select class="form-control" id="movie">
+            <option value="1st-run">Grave of the Fireflies</option>
+            <option value="2nd-run">Kiki's Delivery Service</option>
+            <option value="1st-run">Spirited away</option>
+            <option value="2nd-run">Howl's Moving Caslte</option>
+          </select>
+      <label for="time">What time?</label>
+            <select class="form-control" id="time">
+            <option value="regularshow">10 am</option>
+            <option value="regularshow">1 pm</option>
+            <option value="matinee">3 pm</option>
+            <option value="matinee">9 pm</option>
+          </select>
+          <button type="submit" class="btn btn-default">submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
