@@ -7,7 +7,7 @@
 
 ## Preview
 
-[![Landing Page Preview](/img/movie-tickets.png)]
+![Landing Page Preview](/img/movie-tickets.png)
 
 **[View Live Preview](https://kwicz.github.io/movie-tickets/)**
 
@@ -18,7 +18,7 @@ _Movie Tickets is a web page that was designeed to help the user get the best de
 ## Project Specifications
 
 | Behavior | Input | Output |
-|---|---|---|
+|---|:---:|:---:|
 | user selects a movie with a value of first run or second run| first run | $10  |
 |   | second run | $5  |
 | user selects time | matinee | $3 |
